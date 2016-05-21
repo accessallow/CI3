@@ -25,6 +25,7 @@ class Student extends CI_Controller {
     }
 
     public function addStudent() {
+        //This function adds student
 
         if ($this->input->post('name')) {
             $name = $this->input->post('name');
